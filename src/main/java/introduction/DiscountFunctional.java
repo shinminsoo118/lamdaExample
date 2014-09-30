@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import static introduction.Price.prices;
 
 /**
- * Created by seokangchun on 2014. 9. 29..
+ * 람다표현식를 소개하기 위한 샘플
  */
 @Slf4j
 public class DiscountFunctional {

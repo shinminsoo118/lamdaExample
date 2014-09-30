@@ -25,7 +25,6 @@ public class DiscountFunctional {
                 .map(price -> price.multiply(BigDecimal.valueOf(0.1)))
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-        System.out.println("Total of discounted 가격 : " + totalOfDiscountedPrices);
         log.info("Total of discounted 가격 : {}", totalOfDiscountedPrices);
     }
 }

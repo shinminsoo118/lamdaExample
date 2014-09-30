@@ -20,6 +20,6 @@ public class DiscountFunctionalTest {
         DiscountFunctional discountFunctional = new DiscountFunctional();
         BigDecimal price = discountFunctional.discountedPrice();
 
-        //log.info("\"Total of discounted 가격 : {}",  price);
+        log.info("\"Total of discounted 가격 : {}",  price);
     }
 }

@@ -16,8 +16,7 @@ import java.util.function.Consumer;
 public class Interation {
 
     public static
-    final List<String> friends =
-            Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
+    final List<String> friends = Arrays.asList("김", "강", "서", "문", "정", "박");
 
     public static void main(final String[] args) {
 

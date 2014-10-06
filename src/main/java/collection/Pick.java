@@ -23,7 +23,7 @@ import java.util.function.Predicate;
 @Slf4j
 public class Pick {
     public static
-    final List<String> friends = Arrays.asList("김", "강", "서", "문", "정", "박");
+    final List<String> friends = Arrays.asList("", "김", "강", "서", "문", "정", "박");
     public static void main(final String[] args) {
         name1(friends, "김");
         name1(friends, "이");
@@ -31,6 +31,7 @@ public class Pick {
         name2();
         name3();
         name4();
+        name5();
     }
 
     /**
@@ -90,6 +91,12 @@ public class Pick {
                 friends.stream()
                         .filter(startsWithLetter.apply("강")).count();
         log.info("count {}", countFriendsStart);
+
+    }
+
+    public static void name5() {
+        final Optional<String> findName = friends.stream().findFirst();
+        findName.ifPresent(name -> log.info("first name is {}", name));
 
     }
 }

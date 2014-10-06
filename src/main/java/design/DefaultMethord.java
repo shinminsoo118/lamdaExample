@@ -3,7 +3,7 @@ package design;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Created by seokangchun on 2014. 10. 6..
+ * default methord의 상속관계를 확인해 봄
  */
 @Slf4j
 public class DefaultMethord {

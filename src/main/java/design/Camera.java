@@ -8,7 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Stream;
 
 /**
- * Created by seokangchun on 2014. 10. 6..
+ * 데코레이션 패턴을 람다를 이용해 간단하게 처리하기
  */
 @Slf4j
 public class Camera {

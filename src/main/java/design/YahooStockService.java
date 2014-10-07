@@ -6,9 +6,9 @@ import java.math.BigDecimal;
 import java.net.URL;
 
 /**
- * Created by kaha on 2014. 10. 4..
+ * 야후주식 조회 서비스
  */
-public class YahooStock {
+public class YahooStockService {
     public static BigDecimal getPrice(final String ticker) {
         try{
             final URL url = new URL("http://ichart.finance.yahoo.com/table.csv?s=" + ticker);

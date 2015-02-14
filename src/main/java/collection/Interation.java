@@ -7,10 +7,22 @@ import java.util.List;
 import java.util.function.Consumer;
 
 /**
- * 이터레이션 활용
  *
- * 결론 : 컬렉션에 람다표현식을 활용하면 이터레이션을 더
+ *  @Class Name : Interation.java 이터레이션 활용
+ *
+ * @Descrition :
+ * 컬렉션에 람다표현식을 활용하면 이터레이션을 더
  * 컴펙트하게 만들 수 있다.
+ *
+ * @Modification Information
+ * @
+ * @ 수정일       수정자     수정내용
+ * @ 15/01/20   서강춘     주석쓰기
+ *
+ * @author 서강춘
+ * @since 15/01/20
+ * @version 1.0
+ *
  */
 @Slf4j
 public class Interation {

@@ -1,5 +1,6 @@
 # 코멘트 입니다.
 # git ignore 항목
+.gradle/*
 .idea/*
 logs/*.*
 lamda-demo.iml

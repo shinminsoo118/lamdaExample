@@ -4,3 +4,5 @@
 .idea/*
 logs/*.*
 lamda-demo.iml
+build/*
+logs/*

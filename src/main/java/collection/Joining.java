@@ -16,9 +16,8 @@ public class Joining {
     final List<String> friends = Arrays.asList("Kim", "Kang", "Seo", "Moon", "Jung", "Bak");
 
     public static void main(final String[] args) {
-        String joinList =
-        friends.stream().map(String::toUpperCase)
-        .collect(Collectors.joining(", ")).toString();
+        String joinList;
+        joinList = friends.stream().map(String::toUpperCase).collect(Collectors.joining(", "));
         log.info("{}", joinList);
     }
 }
